@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bdtheque">Ma Bdtheque!</string>
+    <string name="app_name">Bdtheque</string>
+	<string name="textSearchTitre">titre</string>
+	<string name="textSearchSerie">Serie</string>
+	<string name="textButtonSearch">Rechercher</string>
+	<string name="textButtonRetour">Retour recherche</string>
+	<string name="textButtonCancel">Annuler</string>
+	<string name="textButtonAdd">Ajouter bd</string>
+
+</resources>

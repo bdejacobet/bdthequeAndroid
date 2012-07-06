@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+    	android:orientation="horizontal" 
+        >   
+		
+		<Button
+			android:id="@+id/btAdd"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:text="@string/textButtonAdd" 
+	        android:layout_weight="1"
+			/>	
+		
+		<Button
+			android:id="@+id/btReturn"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:text="@string/textButtonRetour"
+	        android:layout_weight="1"
+			/>	
+    
+	</LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+    	android:orientation="horizontal" 
+        >  
+	
+		<ListView
+			android:id="@+id/lvListLivres"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			/>
+    
+	</LinearLayout>
+	
+</LinearLayout>

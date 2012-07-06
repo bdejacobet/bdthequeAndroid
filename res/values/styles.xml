@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="bdthequeTheme" parent="android:Theme.Light.NoTitleBar">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/blanc</item>
+    <item name="android:textSize">@dimen/textSize</item>
+    <item name="android:background">@color/noir</item>
+    <item name="android:textColorHighlight">@color/vert</item>
+</style>
+</resources>
